@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  min-height: 100vh;
+  margin: 0;
+
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(120, 6%, 7.5%);
+  color: #fff;
+}
+
+h1 {
+  color: #3cbb4d;
+  font-size: clamp(2rem, 4vw + 1rem, 10rem);
+  line-height: 1;
+}
+
+p {
+  text-transform: uppercase;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color: #3cbb4d;
+}
