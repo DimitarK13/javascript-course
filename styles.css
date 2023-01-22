@@ -21,7 +21,7 @@ h1 {
 
 p {
   text-transform: uppercase;
-  font-size: clamp(1.5rem, 1vw, 2rem);
+  font-size: clamp(1rem, 1vw, 2rem);
   margin-block: 1em;
 }
 
