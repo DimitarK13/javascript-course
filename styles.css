@@ -1,9 +1,12 @@
+* {
+  margin: 0;
+}
+
 body {
   display: grid;
   align-content: center;
   justify-items: center;
   min-height: 100vh;
-  margin: 0;
 
   font-family: 'Poppins', sans-serif;
   background-color: hsl(120, 6%, 7.5%);
@@ -18,6 +21,8 @@ h1 {
 
 p {
   text-transform: uppercase;
+  font-size: clamp(1.5rem, 1vw, 2rem);
+  margin-block: 1em;
 }
 
 a {
