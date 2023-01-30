@@ -21,7 +21,7 @@ h1 {
 
 p {
   text-transform: uppercase;
-  font-size: clamp(1rem, 1vw, 2rem);
+  font-size: clamp(1rem, 2vw, 3rem);
   margin-block: 1em;
 }
 
@@ -29,4 +29,5 @@ a {
   color: inherit;
   text-decoration: none;
   color: #3cbb4d;
+  font-size: 1.5rem;
 }
