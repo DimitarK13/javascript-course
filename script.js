@@ -156,12 +156,143 @@
 
 // mass / height(2) BMI CALCULATOR
 
-// function bmiCalculator(mass, height) {
-//   return mass / height ** 2;
-// }
-
 // let myBmi = bmiCalculator(74, 1.85);
 // let aleksandarsBmi = bmiCalculator(71, 1.81);
 // let randomBmi = bmiCalculator(120, 2.24);
 
 // console.log(myBmi, aleksandarsBmi, randomBmi);
+
+// function bmiCalculator(mass, height) {
+//   return mass / height ** 2;
+// }
+
+// const bmiCalculatorArrow = (mass, height) => {
+//   return mass / height ** 2;
+// };
+
+// fruits[3] = 'Banana';
+
+// console.log(fruits);
+
+// console.log(fruits[3]);
+
+// const info = ['Dimitar', 'Kalapocev', 19, 'Instructor'];
+
+// let msg =
+//   'I am ' +
+//   info[0] +
+//   ' ' +
+//   info[1] +
+//   '. I am ' +
+//   info[2] +
+//   ' years old. I am an ' +
+//   info[3] +
+//   '.';
+
+// console.log(msg);
+
+// fruits.push('Banana', 'Kiwi');
+// console.log(fruits);
+
+// fruits.pop();
+// console.log(fruits);
+
+// fruits.unshift('Banana');
+// console.log(fruits);
+
+// fruits.shift();
+// console.log(fruits);
+
+// const fruits = ['Apple', 'Orange', 'Citrus'];
+// console.log(fruits);
+
+// const newArr = fruits.slice(); // 6 - 2 = 4
+// console.log(newArr);
+
+// const hotel = hotels.slice(-1);
+// console.log(hotel);
+
+// const hotels = ['Sirius', 'Emi', 'Ilinden', 'Vila Park'];
+// console.log(hotels);
+// const hotelsSkopje = ['Park', 'Arka', 'DoubleTree'];
+// console.log(hotelsSkopje);
+
+// const allHotels = hotels.concat(hotelsSkopje);
+// console.log(allHotels);
+
+// const names = ['Dimitar', 'Kalapocev', 19];
+// const schools = ['Sando Masev', 'Nikola Karev'];
+
+// const combined = names.concat(schools);
+// console.log(combined);
+
+// let msg =
+//   'My name is ' +
+//   combined[0] +
+//   ' ' +
+//   combined[1] +
+//   ', I am ' +
+//   combined[2] +
+//   'years old. I finished elementary school in ' +
+//   combined[3] +
+//   ', and highschool in ' +
+//   combined[4] +
+//   '.';
+
+// console.log();
+
+// My name is Dimitar Kalapocev, I am 19 years old. I finished elementary school in Sando Masev, and highschool in Nikola Karev.
+
+// const names = ['Dimitar', 'Kalapocev', 19];
+// const schools = ['Nikola Karev', 'Sando Masev'];
+
+// const combined = names.concat(schools);
+// console.log(combined);
+
+// const fruits = ['Apple', 'Orange', 'Citrus', 'Kiwi'];
+
+// if (fruits.includes('Kiwi', 'Apple')) {
+//   console.log('We have Kiwi available');
+// } else {
+//   console.log('Sorry, no Kiwi at the moment');
+// }
+
+// function doesInclude(fruit) {
+//   return fruits.includes(fruit);
+// }
+
+// console.log(doesInclude('Kiwi'));
+// console.log(doesInclude('Banana'));
+
+// const pricesWithTax = prices.map((price) => price + price * 0.18);
+
+// console.log(pricesWithTax);
+
+// console.log(prices);
+
+// const reversedPrices = prices.reverse();
+// console.log(reversedPrices);
+
+// const obj = {};
+
+// console.log(Array.isArray(prices), typeof obj);
+
+// const prices = [100, 25, 632, 562, 421, 223];
+
+// const sortedPrices = prices.sort((a, b) => a - b);
+
+// console.log(prices);
+// console.log(sortedPrices);
+
+// const arr = [25, 1025, 2560, 53, 12, 65, 23, 75];
+// arr.sort((a, b) => a - b);
+
+// console.log(arr);
+
+// const halfArr = arr.map((element) => {
+//   return element / 2;
+// });
+
+// console.log(halfArr);
+
+// console.log(halfArr[halfArr.length - 1]);
