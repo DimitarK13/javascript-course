@@ -390,24 +390,24 @@
 
 // 113
 
-const numbers = [5, 13, 23, 45, 'Hello World', 27, 7, 20];
-const numbers2 = [213, 21, 51, 5];
+// const numbers = [5, 13, 23, 45, 'Hello World', 27, 7, 20];
+// const numbers2 = [213, 21, 51, 5];
 
-const calcArr = (arr) => {
-  if (Array.isArray(arr)) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-      if (typeof arr[i] !== 'number') continue;
-      sum += arr[i];
-    }
-    return sum;
-  }
-  return 'Please enter an array';
-};
+// const calcArr = (arr) => {
+//   if (Array.isArray(arr)) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//       if (typeof arr[i] !== 'number') continue;
+//       sum += arr[i];
+//     }
+//     return sum;
+//   }
+//   return 'Please enter an array';
+// };
 
-let res1 = calcArr(numbers);
-let res2 = calcArr(numbers2);
+// let res1 = calcArr(numbers);
+// let res2 = calcArr(numbers2);
 
-console.log(res1);
-console.log(res2);
-console.log(calcArr('Hello World'));
+// console.log(res1);
+// console.log(res2);
+// console.log(calcArr('Hello World'));
