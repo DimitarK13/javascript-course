@@ -296,3 +296,118 @@
 // console.log(halfArr);
 
 // console.log(halfArr[halfArr.length - 1]);
+
+// for (let i = 0; i < 10; i++) {
+//     console.log(i);
+//   }
+
+// let hotels = ['Sirius', 'Emi', 'Gligorov', 'Vila Park'];
+
+// console.log(hotels[0]);
+// console.log(hotels[1]);
+// console.log(hotels[2]);
+// console.log(hotels[3]);
+
+// for (let i = 0; i < hotels.length; i++) {
+//   console.log(hotels[i]);
+// }
+
+// for (let i = 1; i < 11; i++) {
+//   console.log(i);
+// }
+
+// for (let i = 1; i < 100; i += 2) {
+//   console.log(i);
+// }
+
+// for (let i = 1; i < 100; i += 2) {
+//   console.log(i);
+// }
+
+// 1 * 7 = 7
+// 2 * 7 = 14
+// 3 * 7 = 21
+// 4 * 7 = 28
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i + ' * 7 = ' + i * 7);
+// }
+
+// 1 * 1 = 1
+// 2 * 1 = 2
+// 3 * 1 = 3
+// 4 * 1 = 4
+
+// 1 * 2 = 2
+// 2 * 2 = 4
+// 3 * 2 = 6
+// 4 * 2 = 8
+
+// 1 * 3 = 3
+// 2 * 3 = 6
+// 3 * 3 = 9
+// 4 * 3 = 12
+
+// for (let i = 1; i <= 10; i++) {
+//   for (let j = 0; j <= 10; j++) {
+//     console.log(i + ' * ' + j + ' = ' + i * j);
+//   }
+// }
+
+// 55
+
+// sum
+// let sum = 1;
+
+// for (let i = 1; i <= 10; i++) {
+//   sum *= i;
+// }
+
+// console.log(sum);
+
+// let sum = 0;
+
+// for (let i = 11; i <= 30; i += 2) {
+//   sum += i;
+// }
+
+// console.log(sum);
+
+// n * 1.8 + 32
+
+// const convert = (celsius) => {
+//   return celsius * 1.8 + 32;
+// };
+
+// console.log(convert(30));
+
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+// console.log(sum);
+
+// 113
+
+const numbers = [5, 13, 23, 45, 'Hello World', 27, 7, 20];
+const numbers2 = [213, 21, 51, 5];
+
+const calcArr = (arr) => {
+  if (Array.isArray(arr)) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+      if (typeof arr[i] !== 'number') continue;
+      sum += arr[i];
+    }
+    return sum;
+  }
+  return 'Please enter an array';
+};
+
+let res1 = calcArr(numbers);
+let res2 = calcArr(numbers2);
+
+console.log(res1);
+console.log(res2);
+console.log(calcArr('Hello World'));
