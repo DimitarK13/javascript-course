@@ -9,17 +9,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>JavaScript 4 Day Course</h1>
-    <p>By Dimitar Kalapocev</p>
+    <header>
+      <h1>JavaScript 6 Day Course</h1>
+      <p>By Dimitar Kalapocev</p>
+    </header>
 
-    <a href="https://straxdesigns.com/" target="_blank">straxdesigns.com</a>
+    <main>
+      <aside class="select-day">
+        <button id="day-1" class="select-day-btn">Day 1</button>
+        <button id="day-2" class="select-day-btn">Day 2</button>
+        <button id="day-3" class="select-day-btn">Day 3</button>
+        <button id="day-4" class="select-day-btn">Day 4</button>
+        <button id="day-5" class="select-day-btn">Day 5</button>
+        <button id="day-6" class="select-day-btn">Day 6</button>
+      </aside>
 
-    <script src="script.js"></script>
+      <section class="day-agenda">
+        <div class="day-agenda-item" id="day-1-item">
+          <h2>Day 1 - Introduction</h2>
+          <ul>
+            <li>Introduction</li>
+            <li>What Will We Learn</li>
+            <li>Setup VS Code</li>
+            <li>What is JavaScript</li>
+            <li>Alert, Prompt and Confirm</li>
+            <li>Values and Variables</li>
+          </ul>
+        </div>
+        <div class="day-agenda-item" id="day-2-item">
+          <h2>Day 2 - Operators & Conditionals</h2>
+          <ul>
+            <li>Operators</li>
+            <li>If... Else Statement</li>
+            <li>Ternary Operator</li>
+          </ul>
+        </div>
+        <div class="day-agenda-item" id="day-3-item">
+          <h2>Day 3 - Loops</h2>
+          <ul>
+            <li>For Loop</li>
+            <li>While Loop</li>
+            <li>Do... While Loop</li>
+          </ul>
+        </div>
+        <div class="day-agenda-item" id="day-4-item">
+          <h2>Day 4 - Functions & Arrays</h2>
+          <ul>
+            <li>Functions</li>
+            <li>Arrays</li>
+          </ul>
+        </div>
+        <div class="day-agenda-item" id="day-5-item">
+          <h2>Day 5 - DOM</h2>
+          <ul>
+            <li>Document Object Model (DOM)</li>
+          </ul>
+        </div>
+        <div class="day-agenda-item" id="day-6-item">
+          <h2>Day 6 - Exercise</h2>
+          <ul>
+            <li>Simple Interactive Website</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="social-links">
+      <a href="https://straxdesigns.com/" target="_blank">Strax Designs</a>
+      <a href="https://dimitark.com" target="_blank">Portfolio</a>
+    </footer>
+
+    <script src="changeDay.js"></script>
   </body>
 </html>
