@@ -1,3 +1,5 @@
+// ------------------ DEN 1 --------------------------
+
 // alert('Hello World');
 
 // const prvoIme = prompt('What"s your name');
@@ -26,6 +28,8 @@
 
 // console.log(string, number, boolean, undef, undef2);
 // console.log(typeof undef2);
+
+// ------------------ DEN 2 --------------------------
 
 // let x = 10 + 20; // 30
 // let godini = (2023 - 2003) * 2;
@@ -136,3 +140,172 @@
 // let message = age >= 18 ? `Vie ste polnoleten` : `Vie ste maloleten`;
 
 // console.log(message);
+
+// ------------------ DEN 3 --------------------------
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// let n = 12;
+
+// while (n <= 10) {
+//   console.log(n);
+
+//   n++;
+// }
+
+// let x = 15;
+
+// do {
+//   console.log(x);
+
+//   x++;
+// } while (x <= 10);
+
+// for (let i = 10; i >= 0; i--) {
+//   console.log(i);
+// }
+
+// for (let i = 0; i <= 20; i += 2) {
+//   console.log(i);
+// }
+
+// let n = 10;
+
+// while (n >= 0) {
+//   console.log(n);
+
+//   n--;
+// }
+
+// let m = 0;
+
+// while (m <= 20) {
+//   console.log(m);
+
+//   m += 2;
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 5) continue;
+
+//   console.log(i);
+// }
+
+// for (let i = 11; i <= 20; i++) {
+//   if (i === 15) break;
+
+//   console.log(i);
+// }
+
+// ISPRINTAJ GI BROEVITE OD 1 DO 10 (FOR I WHILE)
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// let n = 1;
+
+// while (n <= 10) {
+//   console.log(n);
+
+//   n++;
+// }
+
+// ISPRINTAJ GI NEPARNITE BROEVI DO 100 (FOR I WHILE)
+
+// for (let i = 1; i <= 100; i += 2) {
+//   console.log(i);
+// }
+
+// let n = 1;
+
+// while (n <= 100) {
+//   console.log(n);
+
+//   n += 2;
+// }
+
+// ISPRINTAJ JA TABLICATA MNOZENJE SO 7 (FOR I WHILE)
+
+// 1 * 7 = 7
+// 2 * 7 = 14
+// 3 * 7 = 21
+// ...
+// 10 * 7 = 70
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i + ` * 7 = ` + i * 7);
+// }
+
+// let n = 1;
+
+// while (n <= 10) {
+//   console.log(n + ` * 7 = ` + n * 7);
+
+//   n++;
+// }
+
+// ISPRINTAJ GI TABLICITE ZA MNOZENJE SO SITE BROEVI OD 1 DO 10 (FOR I WHILE)
+
+// 1 * 1 = 1
+// 2 * 1 = 2
+// 3 * 1 = 3
+// 10 * 1 = 10
+
+// 1 * 2 = 2
+// 2 * 2 = 4
+// 3 * 2 = 6
+// 10 * 2 = 20
+
+// 1 * 3 = 3
+// 2 * 3 = 6
+// 3 * 3 = 9
+// 10 * 3 = 30
+
+// 1 * 10 = 10
+// 2 * 10 = 20
+// 3 * 10 = 30
+// 10 * 10 = 100
+
+// for (let i = 1; i <= 10; i++) {
+//   for (let j = 1; j <= 10; j++) {
+//     console.log(i + ` * ` + j + ` = ` + i * j);
+//   }
+// }
+
+// let n = 1;
+
+// while (n <= 10) {
+//   let m = 1;
+
+//   while (m <= 10) {
+//     console.log(n + ` * ` + m + ` = ` + n * m);
+
+//     m++;
+//   }
+
+//   n++;
+// }
+
+// PRESMETAJ GO ZBIROT NA BROEVITE OD 1 DO 10 (FOR I WHILE)
+// SUMA = 55
+
+// let suma = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//   suma += i;
+// }
+
+// console.log(suma);
+
+// let suma2 = 0;
+// let n = 1;
+
+// while (n <= 10) {
+//   suma2 += n;
+//   n++;
+// }
+
+// console.log(suma2);
