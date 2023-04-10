@@ -309,3 +309,131 @@
 // }
 
 // console.log(suma2);
+
+// function hello() {
+//   console.log('Hello');
+// }
+
+// hello();
+
+// const hello2 = function () {
+//   console.log('Hello 2');
+// };
+
+// hello2();
+
+// const hello3 = () => {
+//   console.log('Hello 3');
+// };
+
+// hello3();
+
+// let number1 = Number(prompt(`Vnesete sirina`));
+// let number2 = Number(prompt(`Vnesete visina`));
+
+// const calcArea = (width = 1, height = 1) => {
+//   let areaFunction = width * height;
+//   return areaFunction;
+// };
+
+// let area = calcArea(number1, number2);
+// console.log(area);
+
+// n * 1.8 + 32
+
+// function toFarenheit(cels) {
+//   return cels * 1.8 + 32;
+// }
+
+// const toFarenheit2 = function (cels) {
+//   return cels * 1.8 + 32;
+// };
+
+// const toFarenheit3 = (cels) => {
+//   return cels * 1.8 + 32;
+// };
+
+// const toFarenheit3 = (cels) => cels * 1.8 + 32;
+
+// let res1 = toFarenheit(30);
+// let res2 = toFarenheit2(35);
+// let res3 = toFarenheit3(40);
+// console.log(res1, res2, res3);
+
+// let hotel1 = hotels[0];
+// let hotel2 = hotels[4];
+
+// hotels[3] = 'Ilinden';
+
+// console.log(hotel1);
+// console.log(hotel2);
+
+// console.log(hotels);
+// console.log(hotels.length);
+
+// // hotels[3] = 'Ilinden';
+// console.log(hotels);
+
+// hotels.push('Ilinden', 'fafwa');
+// hotels.pop();
+
+// hotels.unshift('Ilinden');
+// hotels.shift();
+
+// console.log(hotels);
+
+// const hotels = ['Emi', 'Sirius', 'Gligorov'];
+
+// hotels.push('Ilinden');
+// hotels.push('fabhdka');
+// hotels.push('daivadab');
+
+// console.log(hotels[0]);
+// console.log(hotels[1]);
+// console.log(hotels[2]);
+// console.log(hotels[3]);
+
+// // console.log(hotels.length);
+
+// for (let i = 0; i < hotels.length; i++) {
+//   console.log(hotels[i]);
+// }
+
+// const arr = ['Dimitar', 'Kalapocev', 19, true, undefined, []];
+
+// console.log(arr);
+
+// let suma = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//   suma += i;
+// }
+
+// console.log(suma);
+
+// const numbers = [12, 32, 5, 76, 12, 68, 22];
+// let suma = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   suma += numbers[i];
+// }
+
+// console.log(suma);
+
+// FUNKCIJA STO KE PRIMA NIZA KAKO PARAMETAR I KE GI SOBIRA BROEVITE VNATRE VO NIZATA
+
+const numbers = [5, 2, 7, 4];
+
+const calcArray = (arr) => {
+  let suma = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    suma += arr[i];
+  }
+
+  return suma;
+};
+
+const result = calcArray(numbers);
+
+console.log(result);
