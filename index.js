@@ -439,3 +439,71 @@
 // const result = calcArray(numbers);
 
 // console.log(result);
+
+// ------------- DEN 5 ----------------
+
+// let heading_El = document.getElementById('heading');
+// let buttons_El = document.getElementsByClassName('select-day-btn');
+// let headings_El = document.getElementsByTagName('h2');
+
+// console.log(headings_El);
+// console.log(heading_El);
+
+// let heading_El = document.querySelector('.sub-heading');
+// let buttons_El = document.querySelectorAll('.select-day-btn');
+// let secondButton = buttons_El[1];
+
+// console.log(heading_El);
+// console.log(buttons_El);
+// console.log(secondButton);
+
+// let heading_El = document.querySelector('#heading');
+// heading_El.textContent = 'Hello World';
+
+// let heading_Txt = heading_El.textContent;
+
+// console.log(heading_El);
+// console.log(heading_Txt);
+
+// let subHeading_El = document.querySelector('.sub-heading');
+// subHeading_El.innerHTML =
+//   'By <a href="https://dimitark.com">Dimitar Kalapocev</a>';
+
+// let subHeading_Txt = subHeading_El.innerHTML;
+
+// console.log(subHeading_El);
+// console.log(subHeading_Txt);
+
+// let day1Item = document.querySelector('#day-1-item');
+// day1Item.classList.add('opened');
+// day1Item.classList.remove('day-agenda-item');
+// console.log(day1Item.classList.contains('opened'));
+// console.log(day1Item.classList.contains('fanjbasdsjhvdska'));
+
+// let day1Button = document.querySelector('#day-1');
+// let day1Button_Attr = day1Button.getAttribute('class');
+// day1Button.setAttribute('aria-expanded', 'true');
+// day1Button.setAttribute('title', 'Day 1 Button');
+// day1Button.removeAttribute('aria-expanded');
+// day1Button.removeAttribute('title');
+// let isClassed = day1Button.hasAttribute('class');
+// let isTitled = day1Button.hasAttribute('title');
+
+// console.log(day1Button_Attr);
+// console.log(isClassed);
+// console.log(isTitled);
+
+// let body_El = document.querySelector('body');
+
+// body_El.addEventListener('mousemove', () => {
+//   console.log('Clicked');
+// });
+
+// body_El.addEventListener('keydown', (e) => {
+//   //   console.log('Key Pressed');
+//   console.log(e.key);
+// });
+
+// body_El.addEventListener('load', () => {
+//   console.log('Document Loaded');
+// });
