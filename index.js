@@ -310,6 +310,8 @@
 
 // console.log(suma2);
 
+// -------------------------------------- DEN 4 ---------------------------------
+
 // function hello() {
 //   console.log('Hello');
 // }
@@ -422,18 +424,18 @@
 
 // FUNKCIJA STO KE PRIMA NIZA KAKO PARAMETAR I KE GI SOBIRA BROEVITE VNATRE VO NIZATA
 
-const numbers = [5, 2, 7, 4];
+// const numbers = [5, 2, 7, 4];
 
-const calcArray = (arr) => {
-  let suma = 0;
+// const calcArray = (arr) => {
+//   let suma = 0;
 
-  for (let i = 0; i < arr.length; i++) {
-    suma += arr[i];
-  }
+//   for (let i = 0; i < arr.length; i++) {
+//     suma += arr[i];
+//   }
 
-  return suma;
-};
+//   return suma;
+// };
 
-const result = calcArray(numbers);
+// const result = calcArray(numbers);
 
-console.log(result);
+// console.log(result);
