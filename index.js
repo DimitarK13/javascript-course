@@ -159,14 +159,107 @@ redovi
 //   console.log('Tim 2 e pobednik');
 // }
 
-false;
-0;
-('');
-undefined;
-null;
+// false;
+// 0;
+// ('');
+// undefined;
+// null;
 
-if (null) {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if (null) {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`Printed ` + i + ` times.`);
+// }
+
+// for (let i = 10; i > 0; i--) {
+//   console.log(`Printed ` + i + ` times.`);
+// }
+
+// let n = 0;
+
+// while (n <= 10) {
+//   console.log(`Printed ` + n + ` times. While Loop`);
+
+//   n++;
+// }
+
+// let m = 10;
+
+// while (m > 0) {
+//   console.log(`Printed ` + m + ` times. While Loop`);
+
+//   m--;
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 6) continue;
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 6) break;
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 99; i += 2) {
+//   console.log(i);
+// }
+
+// 1 * 7 = 7
+// 2 * 7 = 14
+// 3 * 7 = 21
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i + ` * 7 = ` + i * 7);
+// }
+
+// 1 * 1 = 1
+// 1 * 2 = 2
+// 1 * 3 = 3
+// .......
+// 2 * 1 = 2
+// 2 * 2 = 4
+// 2 * 3 = 6
+// .......
+// 3 * 1 = 3
+// 3 * 2 = 6
+// 3 * 3 = 9
+// .......
+// 4 * 1 = 4
+// 4 * 2 = 8
+// 4 * 3 = 12
+// 4 * 4 = 16
+// ......
+
+// for (let i = 1; i <= 10; i++) {
+//   for (let j = 1; j <= 10; j++) {
+//     console.log(i + ` * ` + j + ` = ` + i * j);
+//   }
+// }
+
+// 55
+
+// let suma = 0;
+
+// for (let i = 0; i <= 10; i++) {
+//   suma += i;
+// }
+
+// console.log(suma);
+
+// neparni > 10 < 30 = 200
+
+// let suma = 0;
+// for (let i = 11; i <= 30; i += 2) {
+//   suma += i;
+// }
+
+// console.log(suma);
