@@ -263,3 +263,107 @@ redovi
 // }
 
 // console.log(suma);
+
+// // expression
+// function hello() {
+//   console.log(`Hello from function`);
+// }
+
+// hello();
+
+// // declaration
+// const hello2 = function () {
+//   console.log(`Hello from function 2`);
+// };
+
+// hello2();
+
+// // arrow
+// const hello3 = () => {
+//   console.log(`Hello from arrow function`);
+// };
+
+// hello3();
+
+// const calcArea = (width = 1, height = 1) => {
+//   let area = width * height;
+//   console.log(area);
+// };
+
+// calcArea(5, 4);
+// calcArea();
+
+// let width = prompt('Vnesete sirina');
+// let height = prompt('Vnesete visina');
+
+// const calcArea = (width = 2, height = 2) => {
+//   let area = width * height;
+//   return area;
+// };
+
+// let area = calcArea(5, 4);
+// let area2 = calcArea(3, 6);
+// let area3 = calcArea(5, 8);
+
+// console.log(area, area2, area3);
+
+// let area4 = calcArea(width, height);
+
+// console.log(area4);
+
+// 10 17 23
+
+// const celsiusToFahrenheit = (celsius) => {
+//   let fahrenheit = celsius * 1.8 + 32;
+//   return fahrenheit;
+// };
+
+// let fahrenheit1 = celsiusToFahrenheit(10);
+// let fahrenheit2 = celsiusToFahrenheit(17);
+// let fahrenheit3 = celsiusToFahrenheit(23);
+
+// console.log(fahrenheit1, fahrenheit2, fahrenheit3);
+
+// 18%
+// 100 + 18 = 118
+
+// const priceWithTax = (price) => {
+//   let tax = price * 0.18;
+//   let priceWithTax = price + tax;
+
+//   return priceWithTax;
+// };
+
+// let price1 = priceWithTax(100);
+// console.log(price1);
+
+// smetka: 100, 280, 350
+// baksis: 10%, 20%, 50%
+
+// const tipCalc = (bill, tip) => {
+//   let tipFromBill = bill * (tip / 100);
+//   let finalBill = bill + tipFromBill;
+
+//   return finalBill;
+// };
+
+// let bill1 = tipCalc(100, 10);
+// let bill2 = tipCalc(280, 20);
+// let bill3 = tipCalc(350, 50);
+
+// console.log(bill1, bill2, bill3);
+
+// mass / height ** 2
+// mass = kg; height = m;
+
+// const BMICalc = (mass, height) => {
+//   let bmi = mass / height ** 2;
+//   let bmiFixed = bmi.toFixed(2);
+
+//   return bmiFixed;
+// };
+
+// let bmiDimitar = BMICalc(76, 1.85);
+// console.log(bmiDimitar);
+
+// dimikalapocev@gmail.com
