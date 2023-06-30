@@ -367,3 +367,106 @@ redovi
 // console.log(bmiDimitar);
 
 // dimikalapocev@gmail.com
+
+// const arr = new Array();
+// const fruits = ['Apple', 'Kiwi', 'Banana', 'Mango'];
+// console.log(fruits);
+
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+// console.log(fruits[fruits.length - 1]);
+// console.log(fruits.length);
+
+// fruits[0] = 'Kiwi';
+// console.log(fruits);
+// fruits[4] = 'Kiwi';
+// console.log(fruits);
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(`Ovoska: ` + fruits[i]);
+// }
+
+// const hotels = ['Emi', 'Sirius', 'Gligorov'];
+// console.log(hotels);
+
+// hotels.push('Vila Park', 'Ilinden');
+// console.log(hotels);
+
+// hotels.pop();
+// console.log(hotels);
+
+// hotels.unshift('Eterno', 'Miss Stone');
+// console.log(hotels);
+
+// hotels.shift();
+// console.log(hotels);
+
+// const hotels1 = ['Emi', 'Sirius', 'Gligorov'];
+// const hotels2 = ['Vila Park', 'Ilinden', 'Eterno'];
+// console.log(hotels1, hotels2);
+
+// // MOZE DA SE KORISTI NO NE E PREPORACLIVO
+// // const allHotels = hotels1.concat(['Vila Park', 'Ilinden', 'Eterno']);
+// const allHotels = hotels1.concat(hotels2);
+// console.log(hotels1, hotels2);
+// console.log(allHotels);
+
+// const hotels = ['Emi', 'Sirius', 'Gligorov', 'Vila Park', 'Ilinden', 'Eterno'];
+// // const twoHotels = hotels.slice(1);
+// const twoHotels = hotels.slice(1, 3); // 3 - 1 = 2
+// console.log(hotels);
+// console.log(twoHotels);
+// console.log(hotels.slice(-1));
+
+// console.log(hotels.join(' '));
+
+// const hotels = ['Emi', 'Sirius', 'Gligorov', 'Vila Park', 'Ilinden', 'Eterno'];
+// const reversedHotels = hotels.reverse();
+// console.log(reversedHotels);
+// console.log(hotels);
+
+// const fruits = ['apple', 'orange', 'banana'];
+// // da se dodade kiwi na pocetokotot od nizata
+// // da se otstrani banana
+// // da se dodadat mango i berries na krajot od nizata
+
+// // ['kiwi', 'apple', 'orange', 'mango', 'berries'] - KRAEN REZULTAT
+
+// fruits.unshift('kiwi');
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
+// fruits.push('mango', 'berries');
+// console.log(fruits);
+
+// const numbers = [7, 13, 27, 4, 19];
+// let sum = 0;
+// // da se soberat brojkite vnatre vo nizata
+// // ocekuvan rezultat: 70
+
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// console.log(sum);
+
+// const numbers = [5, 3, 17, 57, 41, 29];
+// // da se sortira nizata od najgolem do najmal
+// // da se odzemat broevite od nizata OCEKUVAN REZULTAT: -38
+
+// const sortedNumbers = numbers.sort((a, b) => a - b);
+// sortedNumbers.reverse();
+// console.log(sortedNumbers);
+
+// let sum = 57;
+
+// for (let i = 1; i < numbers.length; i++) {
+//   sum -= numbers[i];
+// }
+
+// console.log(sum);
