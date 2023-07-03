@@ -470,3 +470,49 @@ redovi
 // }
 
 // console.log(sum);
+
+// const firstName = 'Dimitar';
+// // const FIRSTNAME = 'Dimitar';
+// const lastName = 'Kalapocev';
+
+// console.log(`My name is ` + firstName + `. My last name is ` + lastName + `.`);
+// console.log(`My name is ${firstName}. My last name is ${lastName}.`);
+
+// let $;
+// let g;
+// let _;
+// let 1;
+
+// camelCase
+// aReallyLongVariableName
+
+// const words = ['JavaScript', 'Is', 'Language', 'Programming', 'Best', 'The'];
+// const reversedWords = words.reverse();
+// console.log(reversedWords.join(' '));
+
+// const numbers = [7, 13, 27, 4, 19];
+// const numbers1 = [7, 'farw', 13, true, false, 27, 4, undefined, 19];
+
+// const calcArr = (arr) => {
+//   let sum = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] !== 'number') continue;
+//     sum += arr[i];
+//   }
+
+//   return sum;
+// };
+
+// let sum = calcArr(numbers);
+// let sum1 = calcArr(numbers1);
+// console.log(sum, sum1);
+
+// CLASSES
+// ARROW FUNCTION
+// TERNARY OPERATOR
+// VAR, LET, CONST
+// ARRAY METHODS - MAP, FILTER, REDUCE
+// DESCTRUCTURING
+// HTML X JS - JSX
+// MODULES
