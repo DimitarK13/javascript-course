@@ -1,7 +1,7 @@
 :root {
   --brand-clr: #3cbb4d;
   --txt-clr: #fff;
-  --bg-clr: #121412;
+  --bg-clr: #0c0d0c;
   --bg-clr-700: #1e1f1e;
 }
 
@@ -96,34 +96,32 @@ code {
 }
 
 .select-day button.active {
-  font-weight: bold;
   color: var(--brand-clr);
 }
 
-.day-agenda-item {
-  display: none;
-}
-
-.day-agenda-item.opened {
-  display: block;
-  width: 350px;
-  height: 100%;
-  background-color: var(--bg-clr-700);
-  padding: 2.5rem 5rem;
-  border-radius: 5px;
-}
-
-.day-agenda-item h2 {
+h2 {
   color: var(--brand-clr);
   margin-bottom: 2rem;
 }
 
-.day-agenda-item li:not(:last-of-type) {
+.day-agenda li {
+  list-style-position: inside;
+}
+
+.day-agenda li:not(:last-of-type) {
   margin-bottom: 1.5rem;
+}
+
+.day-agenda {
+  flex-shrink: 0;
+  width: 350px;
+  background-color: var(--bg-clr-700);
+  padding: 2rem;
+  border-radius: 5px;
 }
 
 .presentation {
   background-color: var(--bg-clr-700);
-  padding: 2.5rem 5rem;
+  padding: 2rem;
   border-radius: 5px;
 }
