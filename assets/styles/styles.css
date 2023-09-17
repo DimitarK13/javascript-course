@@ -106,6 +106,10 @@ h2 {
   list-style-position: inside;
 }
 
+.day-agenda li[id] {
+  cursor: pointer;
+}
+
 .day-agenda li:not(:last-of-type) {
   margin-bottom: 1.5rem;
 }
@@ -124,9 +128,10 @@ h2 {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
-.presentation__code {
+.presentation__code:not(:empty) {
   color: var(--brand-clr);
   margin-block: 4rem;
   max-width: ch;
@@ -137,7 +142,7 @@ h2 {
   margin-top: 0;
 }
 
-.presentation__important {
+.presentation__important:not(:empty) {
   color: var(--important-clr);
   margin-top: auto;
   font-size: 1.125rem;
