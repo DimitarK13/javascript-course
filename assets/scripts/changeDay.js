@@ -11,7 +11,8 @@ for (let i = 0; i < buttons.length; i++) {
     programHeading.textContent = programDays[button_id].title;
     programDays[button_id].program.map((item) => {
       const itemEl = document.createElement('li');
-      itemEl.textContent = item;
+      itemEl.textContent = item.content;
+      if (item.id) itemEl.setAttribute('id', item.id);
 
       programList.appendChild(itemEl);
     });
@@ -32,52 +33,75 @@ const programDays = {
   'day-1': {
     title: 'Ден 1',
     program: [
-      'Запознавање',
-      'Што ќе учиме',
-      'Поставување VS Code',
-      'Што е JavaScript',
-      "'Hello World'",
-      'Коментари',
+      { content: 'Запознавање', id: 'introduction' },
+      { content: 'Што ќе учиме' },
+      { content: 'Поставување VS Code' },
+      { content: 'Што е JavaScript', id: 'what-is-js' },
+      { content: "'Hello World'", id: 'hello-world' },
+      { content: 'Коментари', id: 'comments' },
     ],
   },
   'day-2': {
     title: 'Ден 2',
     program: [
-      'Вредности',
-      'Променливи',
-      'Оператори',
-      'If... Else',
-      'Точни и неточни вредности',
+      { content: 'Вредности', id: 'values' },
+      { content: 'Променливи', id: 'variables' },
+      { content: 'Оператори', id: 'operators' },
+      { content: 'If... Else', id: 'if-else' },
+      { content: 'Точни и неточни вредности', id: 'true-falsy-values' },
     ],
   },
   'day-3': {
     title: 'Ден 3',
-    program: ['For Loop', 'While Loop', 'Loop вежби'],
+    program: [
+      { content: 'Loops', id: 'loops' },
+      { content: 'For Loop', id: 'for-loop' },
+      { content: 'While Loop', id: 'while-loop' },
+      { content: 'Loop вежби' },
+    ],
   },
   'day-4': {
     title: 'Ден 4',
-    program: ['Функции', 'Функции вежби'],
+    program: [
+      { content: 'Функции', id: 'functions' },
+      { content: 'Функции вежби' },
+    ],
   },
   'day-5': {
     title: 'Ден 5',
-    program: ['Низи', 'Методи на низи', 'Низи вежби'],
+    program: [
+      { content: 'Низи', id: 'arrays' },
+      { content: 'Методи на низи', id: 'array-methods' },
+      { content: 'Низи вежби' },
+    ],
   },
   'day-6': {
     title: 'Ден 6',
-    program: ['Објекти', "'this' keyword", 'Објекти вежби'],
+    program: [
+      { content: 'Објекти', id: 'objects' },
+      { content: "'this' keyword", id: 'this-keyword' },
+      { content: 'Објекти вежби' },
+    ],
   },
   'day-7': {
     title: 'Ден 7',
-    program: ['ДОМ - Document Object Model'],
+    program: [{ content: 'ДОМ - Document Object Model', id: 'dom' }],
   },
   'day-8': {
     title: 'Ден 8',
     program: [
-      'Посветување внимание на несигурни теми',
-      'Вежби',
-      'Прашања',
-      'Што следно',
-      'Корисни извори',
+      { content: 'Посветување внимание на несигурни теми' },
+      { content: 'Вежби' },
+      { content: 'Прашања' },
+      { content: 'Што следно', id: 'what-next' },
+      { content: 'Корисни извори', id: 'useful-sources' },
     ],
   },
 };
+
+document.querySelector(
+  '.presentation__code'
+).innerHTML = `for (let i = 0; i < 10; i++) {<br>
+  &nbsp;&nbsp;console.log(‘Printed ‘ + i + ‘ times’);
+<br>}
+`;

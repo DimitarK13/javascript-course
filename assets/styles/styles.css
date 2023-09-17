@@ -1,5 +1,6 @@
 :root {
   --brand-clr: #3cbb4d;
+  --important-clr: #bb3c3c;
   --txt-clr: #fff;
   --bg-clr: #0c0d0c;
   --bg-clr-700: #1e1f1e;
@@ -38,6 +39,7 @@ h1 {
 
 p {
   margin-block: 1em;
+  line-height: 1.6;
 }
 
 a {
@@ -62,10 +64,6 @@ header {
 main {
   width: 100%;
   max-width: 1500px;
-}
-
-code {
-  color: var(--brand-clr);
 }
 
 .grid-area {
@@ -101,7 +99,7 @@ code {
 
 h2 {
   color: var(--brand-clr);
-  margin-bottom: 2rem;
+  margin-bottom: 1em;
 }
 
 .day-agenda li {
@@ -124,4 +122,23 @@ h2 {
   background-color: var(--bg-clr-700);
   padding: 2rem;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation__code {
+  color: var(--brand-clr);
+  margin-block: 4rem;
+  max-width: ch;
+  line-height: 1.6;
+}
+
+.presentation__content {
+  margin-top: 0;
+}
+
+.presentation__important {
+  color: var(--important-clr);
+  margin-top: auto;
+  font-size: 1.125rem;
 }
