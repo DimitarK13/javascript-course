@@ -33,6 +33,7 @@ const programDays = {
     title: 'Ден 4',
     program: [
       { content: 'Функции', id: 'functions' },
+      { content: 'Функции - враќање вредности', id: 'return-functions' },
       { content: 'Функции вежби' },
     ],
   },

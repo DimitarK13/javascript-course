@@ -133,7 +133,7 @@ h2 {
 
 .presentation__code:not(:empty) {
   color: var(--brand-clr);
-  margin-block: 4rem;
+  margin-block: 2rem;
   max-width: ch;
   line-height: 1.6;
 }
@@ -146,4 +146,10 @@ h2 {
   color: var(--important-clr);
   margin-top: auto;
   font-size: 1.125rem;
+}
+
+.presentation h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5em;
+  color: var(--brand-clr);
 }
