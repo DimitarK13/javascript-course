@@ -143,59 +143,151 @@
 // }
 
 // Falsy values
-if (0) {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if (0) {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
-if (false) {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if (false) {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
-if ('') {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if ('') {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
-if (undefined) {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if (undefined) {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
-if (null) {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if (null) {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
-if (NaN) {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if (NaN) {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
-// Truthy values
-if (1) {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// // Truthy values
+// if (1) {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
-if ('a') {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if ('a') {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
-if (true) {
-  console.log('True');
-} else {
-  console.log('False');
-}
+// if (true) {
+//   console.log('True');
+// } else {
+//   console.log('False');
+// }
 
 // DEN 2 ZAVRSUVA OVDE
+
+// for (let i = 0; i <= 10; i++) {
+//   console.log(`Printed ${i} times.`);
+// }
+
+// for (let i = 10; i >= 0; i--) {
+//   console.log(`Printed ${i} times backwards.`);
+// }
+
+// let n = 0;
+// while (n <= 10) {
+//   console.log(`Printed ${n} times - while loop.`);
+
+//   n++;
+// }
+
+// let m = 10;
+// while (m >= 0) {
+//   console.log(`Printed ${m} times backwards - while loop.`);
+
+//   m--;
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 3) continue;
+//   if (i === 7) break;
+
+//   console.log(`Printed ${i} times.`);
+// }
+
+// Isprintaj gi broevite od 1-20;
+// for (let i = 1; i < 21; i++) {
+//   console.log(i);
+// }
+
+// Isprintaj gi neparnite broevi do 100
+// for (let i = 1; i <= 100; i = i + 2) {
+//   console.log(`Printed ${i} times`);
+// }
+
+// Da se isprinta tablicata za mnozenje so brojot 7
+// 1 * 7 = 7
+// 2 * 7 = 14
+// 3 * 7 = 21
+// 4 * 7 = 28
+// 5 * 7 = 35
+// 6 * 7 = 42
+// 7 * 7 = 49
+// 8 * 7 = 56
+// 9 * 7 = 63
+// 10 * 7 = 70
+
+// console.log(`${1} * 7 = ${1 * 7}`);
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`${i} * 7 = ${7 * i}`);
+// }
+
+// Da se isprintat tablicite za mnozenje od 1-10
+// 1 * 1 = 1
+// 1 * 2 = 2
+// 1 * 3 = 4
+// 2 * 1 = 2
+// 2 * 2 = 4
+
+// console.log(`${1} * ${2} = ${1 * 2}`);
+
+// for (let i = 1; i <= 10; i++) {
+//   for (let j = 1; j <= 10; j++) {
+//     console.log(`${i} * ${j} = ${i * j}`);
+//   }
+// }
+
+// Presmetaj go zbirot na broevite 1-10 1+2+3+4+5+6+7+8+9+10 = 55
+// let suma = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//   suma = suma + i;
+// }
+
+// console.log(suma);
+
+// Presmetaj go zbirot na neparnite broevi pogolemi od 10 i pomali od 30 = 200
+// let zbir = 0;
+
+// for (let i = 11; i < 30; i = i + 2) {
+//   zbir = zbir + i;
+// }
+
+// console.log(zbir);
+
+// DEN 3 OVDE ZAVRSUVA
