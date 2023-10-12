@@ -290,4 +290,190 @@
 
 // console.log(zbir);
 
-// DEN 3 OVDE ZAVRSUVA
+// DEN 3 ZAVRSUVA OVDE
+
+// // Function Expression
+// function hello(username = 'World') {
+//   console.log(`Hello ${username}`);
+// }
+
+// hello('Dimitar');
+// hello('Aleksandra');
+// hello('Mihael');
+// hello('Ivana');
+// hello('Gorazd');
+// hello();
+
+// // Function Declaration
+// const helloDeclaration = function (username = 'World') {
+//   console.log(`Hello ${username} from function declaration.`);
+// };
+
+// helloDeclaration('Dimitar');
+// helloDeclaration('Aleksandra');
+// helloDeclaration('Mihael');
+// helloDeclaration('Ivana');
+// helloDeclaration('Gorazd');
+// helloDeclaration();
+
+// // Arrow Functions
+// const helloArrow = (username = 'World') =>
+//   console.log(`Hello ${username} from arrow function`);
+
+// helloArrow('Dimitar');
+// helloArrow();
+
+// Function expression - returning values
+// function calcArea(width = 1, height = 1) {
+//   console.log('This will print');
+//   return width * height;
+// }
+
+// const area = calcArea(5, 3);
+// calcArea(5, 3);
+
+// console.log(area);
+
+// // Function declaration - returning values
+// const calcAreaDeclaration = function (width = 1, height = 1) {
+//   return width * height;
+// };
+
+// const areaDeclaration = calcAreaDeclaration(10, 2);
+// console.log(areaDeclaration);
+
+// // Arrow function - returning values
+// // const calcAreaArrow = (width = 1, height = 1) => width * height;
+
+// const calcAreaArrow = (width = 1, height = 1) => {
+//   return width * height;
+// };
+
+// const areaArrow = calcAreaArrow(13, 3);
+// console.log(areaArrow);
+
+// No code is executed in a function after the return keyword
+
+// function returnFunc() {
+//   const name = 'Dimitar';
+//   const lastName = 'Kalapocev';
+
+//   return name + ' ' + lastName;
+
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+// }
+
+// const fullName = returnFunc();
+// console.log(fullName);
+
+// const returnFuncDeclaration = function () {
+//   const name = 'Dimitar';
+//   const lastName = 'Kalapocev';
+
+//   return name + ' ' + lastName;
+
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+// };
+
+// const fullNameDeclaration = returnFuncDeclaration();
+// console.log(fullNameDeclaration);
+
+// const returnFuncArrow = () => {
+//   const name = 'Dimitar';
+//   const lastName = 'Kalapocev';
+
+//   return name + ' ' + lastName;
+
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+//   console.log('This will not be printed');
+// };
+
+// const fullNameArrow = returnFuncArrow();
+// console.log(fullNameArrow);
+
+// // The only way to use multiple returns is conditional rendering/programming
+// const multipleReturns = (age) => {
+//   if (age >= 18) {
+//     return 'The user is legal';
+//   } else {
+//     return 'The user is not legal';
+//   }
+// };
+
+// const isDimitarLegal = multipleReturns(20);
+// const isLegal = multipleReturns(15);
+// console.log(isDimitarLegal);
+// console.log(isLegal);
+
+// 1. Funkcija sto konvertira od stepeni celzjusovi vo stepeni farenhajt.
+// Test data: 10, 17, 23
+// const celsiusToFahrenheit = (celsius = 1) => (celsius * 9) / 5 + 32;
+
+// const testResult1 = celsiusToFahrenheit(10);
+// const testResult2 = celsiusToFahrenheit(17);
+// const testResult3 = celsiusToFahrenheit(23);
+
+// console.log(testResult1, testResult2, testResult3);
+
+// 2. Funkcija sto presmetuva danok
+// 100 -> 118
+
+// cena * 0.18;
+// const addTax = (price = 1) => {
+//   const tax = 0.21;
+//   priceWithTax = price * tax + price;
+//   return priceWithTax;
+// };
+
+// const addTaxTo = addTax(100);
+// const addTaxTo2 = addTax(185);
+// const addTaxTo3 = addTax(250);
+// console.log(addTaxTo, addTaxTo2, addTaxTo3);
+
+// 3. Funkcija sto presmetuva baksis
+// parameters: cena, baksis (procenti (10% -> 0.1, 25 -> 0.25))
+// const addTips = (price = 100, tip = 0.1) => {
+//   return price * tip + price;
+// };
+
+// const addTipTo = addTips(1000, 0.2);
+// const addTipTo2 = addTips(1500, 0.5);
+// console.log(addTipTo, addTipTo2);
+
+// Funkcija sto presmetuva BMI (Body Mass Index);
+// parameters: mass (kg), height (meters)
+// 75, 185
+// mass / height ** 2
+
+// Mass in kg, height in m
+// const bmiCalc = (mass, height) => {
+//   return mass / height ** 2;
+// };
+
+// const myBMI = bmiCalc(75, 1.85);
+// console.log(myBMI);
+
+// DEN 4 ZAVRSUVA OVDE
