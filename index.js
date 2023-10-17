@@ -477,3 +477,168 @@
 // console.log(myBMI);
 
 // DEN 4 ZAVRSUVA OVDE
+
+// Creating and getting values from array
+// const hotelsArray = new Array();
+// const hotels = ['Emi', 'Sirius', 'Gligorov'];
+// console.log(hotels);
+// console.log(hotels[0]);
+// console.log(hotels[1]);
+// console.log(hotels[2]);
+
+// const dimitar = ['Dimitar', 'Kalapocev', 20, 2003, 'JavaScript Instructor'];
+
+// // Jas sum *Dimitar Kalapocev*. Imam *20* godini znaci sum roden vo *2003* i sum *JavaScript Instructor*.
+// console.log(
+//   `Jas sum ${dimitar[0]} ${dimitar[1]}. Imam ${dimitar[2]} godini znaci sum roden vo ${dimitar[3]} i sum ${dimitar[4]}`
+// );
+
+// function test() {}
+
+// const dimitar = ['Dimitar', 'Kalapocev', 20, 2003, 'JavaScript Instructor'];
+// console.log(dimitar);
+// console.log(typeof []);
+// console.log(typeof {});
+// console.log(typeof null);
+// console.log(typeof test);
+
+// Adding and changing values in arrays
+// const hotels = ['Emi', 'Sirius', 'Gligorov'];
+// console.log(hotels);
+// console.log(hotels[0]);
+
+// hotels[0] = 'Vila Park';
+// console.log(hotels);
+// console.log(hotels.length);
+
+// hotels[3] = 'Emi';
+// console.log(hotels);
+// console.log(hotels.length);
+
+// hotels[hotels.length] = 'Ilinden';
+// hotels[hotels.length] = 'Ilinden';
+// hotels[hotels.length] = 'Ilinden';
+// hotels[hotels.length] = 'Miss Stone';
+// console.log(hotels);
+// console.log(hotels[hotels.length - 1]);
+
+// Printing array with for and while loops
+// const hotels = [
+//   'Emi',
+//   'Sirius',
+//   'Gligorov',
+//   'Vila Park',
+//   'Ilinden',
+//   'Eterno',
+//   'Miss Stone',
+//   'Istatov',
+//   'Sirius',
+// ];
+// console.log(hotels);
+// // console.log(hotels.length);
+// // console.log(hotels[0]);
+// // console.log(hotels[1]);
+// // console.log(hotels[2]);
+// // console.log(hotels[3]);
+// // console.log(hotels[4]);
+// // console.log(hotels[5]);
+// // console.log(hotels[6]);
+// // console.log(hotels[7]);
+// // console.log(hotels[8]);
+
+// for (let i = 0; i < hotels.length; i++) {
+//   console.log(`Koga bev vo Strumica prestojuvav vo hotel ${hotels[i]}`);
+// }
+
+// let n = 0;
+// while (n < hotels.length) {
+//   console.log(hotels[n]);
+
+//   n++;
+// }
+
+// Adding and removing elements from array
+// const hotels = ['Emi', 'Sirius', 'Gligorov'];
+// console.log(hotels);
+
+// // Adds new element to the beginning of the array
+// hotels.unshift('Vila Park');
+// console.log(hotels);
+
+// // Deletes element from the beginning of the array
+// hotels.shift();
+// console.log(hotels);
+
+// // Adds new element to the end of the array
+// hotels.push('Ilinden', 'Eterno', 'Miss Stone');
+// console.log(hotels);
+
+// // Removes element from the end of the array
+// hotels.pop();
+// console.log(hotels);
+
+// Merging arrays into one
+// const hotels1 = ['Emi', 'Sirius', 'Gligorov'];
+// const hotels2 = ['Vila Park', 'Ilinden', 'Eterno'];
+// console.log(hotels1, hotels2);
+
+// const allHotels = hotels2.concat(hotels1);
+// console.log(allHotels, hotels1, hotels2);
+
+// Return copy of array
+// const hotels1 = ['Emi', 'Sirius', 'Gligorov', 'Vila Park', 'Ilinden', 'Eterno'];
+// const hotelsCopy = hotels1.slice(1, -2); // 3 - 1 = 2
+// console.log(hotels1);
+// console.log(hotelsCopy);
+
+// Return string from elements from array
+// const word = ['J', 'a', 'v', 'a', 'S', 'c', 'r', 'i', 'p', 't'];
+// const fullWord = word.join('');
+// console.log(fullWord);
+
+// const sentence = ['JavaScript', 'is', 'the', 'best'];
+// const fullSentence = sentence.join(' ');
+// console.log(fullSentence);
+
+// Reversing the elements of an array
+// const numbers = [412, 521, 21, 521, 9, 24];
+// numbers.reverse();
+// console.log(numbers);
+
+// const fruits = ['apple', 'orange', 'banana'];
+// console.log(fruits);
+// // 1. Da se dodade 'kiwi' na pocetokot od nizata
+// // 2. Da se odstrane 'banana'
+// // 3. Da se dodadat 'mango' i 'berries' na krajot od nizata
+
+// fruits.unshift('kiwi');
+// console.log(fruits);
+
+// fruits.pop();
+// console.log(fruits);
+
+// fruits.push('mango', 'berries');
+// console.log(fruits);
+
+// For loop sto gi presmtuva site broevi od nizata
+// const numbers = [7, 13, 27, 4, 19];
+
+// let suma = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   suma = suma + numbers[i];
+//   // 0 + 7 = 7
+//   // 7 + 13 = 20
+//   // 20 + 27 = 47
+//   // 47 + 4 = 51
+//   // 51 + 19 = 70
+// }
+
+// console.log(suma);
+
+// const numbers = [5, 3, 17, 57, 41, 29];
+// 1. Da se sortira nizata od najgolem do najmal (koristi Google za metod)
+// 2. Da se odzemat site broevi od nizata.
+// dimikalapocev@gmail.com
+
+// DEN 5 ZAVRSUVA OVDE
