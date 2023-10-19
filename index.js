@@ -642,3 +642,110 @@
 // dimikalapocev@gmail.com
 
 // DEN 5 ZAVRSUVA OVDE
+
+// const numbers = [24, 421, 51, 2, 4, 28, 1, 281, 231];
+
+// // 24 421
+// // 421 51 - 24 51 421
+// // 24 51
+
+// console.log(numbers.sort());
+
+// console.log(numbers.sort((a, b) => b - a));
+
+// const dimitar = ['Kalapocev', 20, 2003, 'Dimitar', 'JavaScript Instructor', {}];
+// console.log(dimitar[0]);
+
+// name    - key
+// Dimitar - value
+
+// const dimitar = {
+//   lastName: 'Kalapocev',
+//   birthYear: 2003,
+//   jobs: ['JavaScript Instructor', 'Developer'],
+//   name: 'Dimitar',
+// };
+// console.log(dimitar);
+
+// console.log(dimitar.name);
+// console.log(dimitar.lastName);
+// console.log(dimitar.jobs);
+// console.log(dimitar.birthYear);
+// // // Jas sum *Dimitar Kalapocev*. Roden sum vo *2003* i sum *JavaScript Instructor*.
+// console.log(
+//   `Jas sum ${dimitar.name} ${dimitar['lastName']}. Roden sum vo ${dimitar.birthYear} i sum ${dimitar.jobs[0]} & ${dimitar.jobs[1]}.`
+// );
+
+// const dimitar = {
+//   lastName: 'Kalapocev',
+//   birthYear: 2003,
+//   jobs: ['JavaScript Instructor', 'Developer'],
+//   name: 'Dimitar',
+
+//   calcAge() {
+//     return 2023 - this.birthYear;
+//   },
+// };
+
+// console.log(dimitar.calcAge());
+
+// dimitar.lastName = 'Gorgiev';
+// console.log(dimitar);
+
+// dimitar.fullName = 'Dimitar Kalapocev';
+// console.log(dimitar);
+
+// Object Oriented Programming OOP
+// const Account = function (name, lastName, username, password, birthYear) {
+//   this.name = name;
+//   this.lastName = lastName;
+//   this.username = username;
+//   this.password = password;
+//   this.birthYear = birthYear;
+
+//   this.calcAge = function () {
+//     this.age = 2023 - this.birthYear;
+//   };
+//   this.calcAge();
+// };
+
+// // Add properties to constructor function from the outside
+// Account.prototype.jobs = this.jobs;
+
+// // Add method to constructor function from the outside
+// Account.prototype.fullNameFunc = function () {
+//   this.fullName = `${this.name} ${this.lastName}`;
+//   return `Full name generated`;
+// };
+
+// const dimitarAcc = new Account(
+//   'Dimitar',
+//   'Kalapocev',
+//   'dimik',
+//   'password',
+//   2003
+// );
+
+// dimitarAcc.jobs = ['JavaScript Instructor', 'Developer'];
+
+// console.log(dimitarAcc);
+// console.log(dimitarAcc.age);
+// console.log(dimitarAcc.fullNameFunc());
+
+// const irena = new Account(
+//   'Irena',
+//   'Pavlova',
+//   'irepav23',
+//   'irenapavlova123',
+//   1993
+// );
+
+// console.log(irena);
+// console.log(irena.fullNameFunc());
+// irena.jobs = ['JavaScript Developer'];
+
+// 1. Napravi constructor function sto gi zema slednite parametri: name, lastName, birthYear, hobbies
+// 2. Vo constructor funkcijata napravi metod sto gi presmetuva godinite, i gi zapisuva go objektot kako age
+// 3. Dodadi 'profession' nadvor od constructor funkcijata
+// 4. Dodadi metod greet() nadvor od constructor funkcijata, sto printa vo konzolata: 'Hello from ${name}. I am ${age} years old and I am a ${profession}
+// 5. Napravi for loop sto printa recenica za sekoe hobi: 'Dimitar likes to Play Chess' - primer.
