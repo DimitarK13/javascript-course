@@ -745,7 +745,118 @@
 // irena.jobs = ['JavaScript Developer'];
 
 // 1. Napravi constructor function sto gi zema slednite parametri: name, lastName, birthYear, hobbies
-// 2. Vo constructor funkcijata napravi metod sto gi presmetuva godinite, i gi zapisuva go objektot kako age
+// 2. Vo constructor funkcijata napravi metod sto gi presmetuva godinite, i gi zapisuva vo objektot kako age
 // 3. Dodadi 'profession' nadvor od constructor funkcijata
 // 4. Dodadi metod greet() nadvor od constructor funkcijata, sto printa vo konzolata: 'Hello from ${name}. I am ${age} years old and I am a ${profession}
 // 5. Napravi for loop sto printa recenica za sekoe hobi: 'Dimitar likes to Play Chess' - primer.
+
+// const Person = function (name, lastName, birthYear, hobbies) {
+//   this.name = name;
+//   this.lastName = lastName;
+//   this.birthYear = birthYear;
+//   this.hobbies = hobbies;
+
+//   this.calcAge = function () {
+//     this.age = 2023 - this.birthYear;
+//     return 2023 - this.birthYear;
+//   };
+//   this.calcAge();
+// };
+
+// Person.prototype.profession = this.profession;
+
+// Person.prototype.greet = function () {
+//   console.log(
+//     `Hello from ${this.name}. I am ${this.age} years old and I am a ${this.profession}`
+//   );
+// };
+
+// const dimitar = new Person('Dimitar', 'Kalapocev', 2003, [
+//   'Play Chess',
+//   'Read Books',
+//   'Play Football',
+// ]);
+
+// dimitar.profession = 'JavaScript Instructor';
+// dimitar.greet();
+
+// console.log(dimitar.hobbies);
+
+// for (let i = 0; i < dimitar.hobbies.length; i++) {
+//   console.log(
+//     `${dimitar.name} ${dimitar.lastName} likes to ${dimitar.hobbies[i]}`
+//   );
+// }
+
+// DEN 6 ZAVRSUVA OVDE
+
+// console.log(document);
+
+// Getting an element by id
+// const heading = document.getElementById('heading');
+// console.log(heading);
+
+// Getting elements by class
+// const days = document.getElementsByClassName('select-day-btn');
+// console.log(days);
+
+// Getting elements and single element by tag name
+// const paragraphs = document.getElementsByTagName('p');
+// console.log(paragraphs);
+// const headingh1 = document.getElementsByTagName('h1');
+// console.log(headingh1);
+
+// Getting only one element with document.querySelector();
+// by tag name - h1
+// by class name - .sub-heading
+// by id - #heading
+// const heading = document.querySelector('h1');
+// console.log(heading);
+// const subHeading = document.querySelector('.sub-heading');
+// console.log(subHeading);
+// const headingId = document.querySelector('#heading');
+// console.log(headingId);
+
+// const days = document.querySelector('.select-day-btn');
+// console.log(days);
+
+// // Getting elements with document.querySelectorAll();
+// const daysAll = document.querySelectorAll('.select-day-btn');
+// console.log(daysAll);
+
+// const headingH1 = document.querySelectorAll('h1');
+// console.log(headingH1);
+
+// // Changing text content on elements with textContent and innerHTML
+// const heading = document.querySelector('#heading');
+// console.log(heading.textContent);
+
+// heading.textContent = 'JavaScript 6 dneven kurs';
+
+// const subHeading = document.querySelector('.sub-heading');
+// console.log(subHeading.innerHTML);
+
+// subHeading.innerHTML =
+//   '<a href="https://www.dimitark.com" target="_blank">D. Kalapocev</a>';
+
+// Adding a class to an element
+// const heading = document.querySelector('#heading');
+// heading.classList.add('heading');
+
+// // Removing a class from an element
+// const subHeading = document.querySelector('.sub-heading');
+// subHeading.classList.remove('sub-heading');
+
+// // Replacing a class of an element
+// heading.classList.replace('heading', 'new-heading');
+
+// // Toggling a class of an element
+// heading.classList.toggle('naslov');
+// heading.classList.toggle('naslov');
+
+// Using event listeners
+// const heading = document.querySelector('#heading');
+
+// heading.addEventListener('click', () => {
+//   heading.textContent = 'Just got clicked';
+// });
