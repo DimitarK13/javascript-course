@@ -860,3 +860,52 @@
 // heading.addEventListener('click', () => {
 //   heading.textContent = 'Just got clicked';
 // });
+
+// DEN 7 ZAVRSUVA OVDE
+
+// Koristejki for loop, elementite od nizata da se isprintat vo obraten redosled (prv-posleden, posleden-prv)
+// ['JavaScript', 'Is', 'Language', 'Programming', 'Best', 'The'];
+
+// const arr = ['JavaScript', 'Is', 'Language', 'Programming', 'Best', 'The'];
+// const arrLength = arr.length - 1;
+
+// for (let i = arrLength; i >= 0; i--) {
+//   console.log(arr[i]);
+// }
+
+// const arr = ['JavaScript', 'Is', 'Language', 'Programming', 'Best', 'The'];
+// arr.reverse();
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// Funkcija sto zema niza kako parametar i gi presmetuva site broevi vo istata
+// [23, 16, 8, 24, 17, 3]
+
+// const arr = [23, 16, 8, 24, 17, 3];
+
+// const calcFromArr = (array) => {
+//   let suma = 0;
+
+//   for (let i = 0; i < array.length; i++) {
+//     if (typeof array[i] !== 'number') {
+//       continue;
+//     }
+
+//     suma = suma + array[i];
+//   }
+
+//   return suma;
+// };
+
+// const res1 = calcFromArr(arr);
+// const res2 = calcFromArr([12, 4]);
+// const res3 = calcFromArr([4, 7, 24, 1059, 213, 415]);
+// const res4 = calcFromArr([4, 7, '24', 21, undefined, 4, 'eden']);
+
+// console.log(res1, res2, res3);
+// console.log(res4);
+// // Istata funkcija optimizirana da ne javuva error ako vo nizata ima drugi vrednosti osven broevi (hint: if + continue)
+
+// DEN 8 ZAVRSUVA OVDE
