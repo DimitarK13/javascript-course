@@ -1,11 +1,6 @@
 'use strict';
 
 const presentationData = {
-  introduction: {
-    heading: 'Запознавање',
-    content:
-      'Јас сум Димитар Калапоцев, роден и живеам во Струмица, имам 20 години и се занимавам со веб девелопмент во последните 3 и пол години.<br><br> Јас ќе ви бидам ментор и инструктор во следните 4 недели, односно 8 часа и се разбира ќе ви бидам на распологање и по завршувањето на курсот. Овој ми е четврти курс за програмирање со JavaScript и се надевам дека ќе можам да ви ја доловам важноста на JavaScript на наједноставен начин.<br><br> Начинот на кој стигнав овде каде што сум во мојата кариера е преку многу курсеви, многу туторијали и многу саати поминати на не реални проекти, па ќе се потрудам до крајот на овој курс да ве охрабрам и вие да го направите тоа што и јас го направив.',
-  },
   'what-is-js': {
     heading: 'Што е JavaScript',
     content:
@@ -138,69 +133,44 @@ const presentationData = {
 };
 
 const programDays = {
-  'day-1': {
-    title: 'Ден 1',
+  'day-12': {
+    title: 'Ден 12',
     program: [
-      { content: 'Запознавање', id: 'introduction' },
-      { content: 'Што ќе учиме' },
-      { content: 'Поставување VS Code' },
       { content: 'Што е JavaScript', id: 'what-is-js' },
       { content: "'Hello World'", id: 'hello-world' },
       { content: 'Коментари', id: 'comments' },
-    ],
-  },
-  'day-2': {
-    title: 'Ден 2',
-    program: [
       { content: 'Вредности', id: 'values' },
       { content: 'Променливи', id: 'variables' },
+    ],
+  },
+  'day-13': {
+    title: 'Ден 13',
+    program: [
       { content: 'Оператори', id: 'operators' },
       { content: 'If... Else', id: 'if-else' },
       { content: 'Точни и неточни вредности', id: 'true-falsy-values' },
-    ],
-  },
-  'day-3': {
-    title: 'Ден 3',
-    program: [
       { content: 'Loops', id: 'loops' },
       { content: 'For Loop', id: 'for-loop' },
-      { content: 'While Loop', id: 'while-loop' },
-      { content: 'Loop вежби' },
     ],
   },
-  'day-4': {
-    title: 'Ден 4',
+  'day-14': {
+    title: 'Ден 14',
     program: [
       { content: 'Функции', id: 'functions' },
       { content: 'Функции - враќање вредности', id: 'return-functions' },
       { content: 'Функции вежби' },
-    ],
-  },
-  'day-5': {
-    title: 'Ден 5',
-    program: [
       { content: 'Низи', id: 'arrays' },
       { content: 'Методи на низи', id: 'array-methods' },
-      { content: 'Низи вежби' },
     ],
   },
-  'day-6': {
-    title: 'Ден 6',
-    program: [
-      { content: 'Објекти', id: 'objects' },
-      { content: "'this' keyword", id: 'this-keyword' },
-      { content: 'Објекти вежби' },
-    ],
-  },
-  'day-7': {
-    title: 'Ден 7',
+  'day-15': {
+    title: 'Ден 15',
     program: [{ content: 'ДОМ - Document Object Model', id: 'dom' }],
   },
-  'day-8': {
-    title: 'Ден 8',
+  'day-16': {
+    title: 'Ден 16',
     program: [
-      { content: 'Посветување внимание на несигурни теми' },
-      { content: 'Вежби' },
+      { content: 'Проект' },
       { content: 'Прашања' },
       { content: 'Што следно', id: 'what-next' },
       { content: 'Корисни извори', id: 'useful-sources' },
